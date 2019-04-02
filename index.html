@@ -1,11 +1,43 @@
 <html>
     <header>
+            <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
             <title>Frederik Heinrich - Git.io Page</title>
+            <style>
+                html{
+                    background-color: black;
+                    color: greenyellow;
+                    font-family: 'Press Start 2P', cursive;
+                }
+                body{
+                    margin: 10cm;
+                }
+            </style>
     </header>
 
     <body>
-
-
-
+        <div id="l1">...</div>
     </body>
+
+    <script>
+
+
+    function load(){
+        if(document.getElementById("l1").innerHTML == "."){
+            document.getElementById("l1").innerHTML = "..";
+        } else if(document.getElementById("l1").innerHTML == ".."){
+            document.getElementById("l1").innerHTML = "...";
+        }else{
+            document.getElementById("l1").innerHTML = ".";
+        }
+        window.setTimeout(() => {
+            load();
+        }, 500);
+    }
+
+
+    load();
+
+	</script>
+
+
 </html>
