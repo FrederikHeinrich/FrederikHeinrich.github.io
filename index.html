@@ -9,33 +9,42 @@
                     font-family: 'Press Start 2P', cursive;
                 }
                 body{
-                    margin: 10cm;
+                    margin: auto;
                 }
             </style>
     </header>
 
     <body>
         <div id="l1">...</div>
+        <div id="a"></div>
     </body>
 
     <script>
 
-
-    function load(){
-        if(document.getElementById("l1").innerHTML == "."){
-            document.getElementById("l1").innerHTML = "..";
-        } else if(document.getElementById("l1").innerHTML == ".."){
-            document.getElementById("l1").innerHTML = "...";
-        }else{
-            document.getElementById("l1").innerHTML = ".";
+        var keys = "";
+        document.addEventListener('keydown', (event) => {
+            const keyName = event.key;
+            console.log(event.keyName + " key pressed!");
+            keys = keys + keyName;
+            if(keys === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba"){
+                document.getElementById("a").innerHTML = "GG";
+            }
+        }, false);
+        
+        function load(){
+            if(document.getElementById("l1").innerHTML == "."){
+                document.getElementById("l1").innerHTML = "..";
+            } else if(document.getElementById("l1").innerHTML == ".."){
+                document.getElementById("l1").innerHTML = "...";
+            }else{
+                document.getElementById("l1").innerHTML = ".";
+            }
+            window.setTimeout(() => {
+                load();
+            }, 500);
         }
-        window.setTimeout(() => {
-            load();
-        }, 500);
-    }
 
-
-    load();
+        load();
 
 	</script>
 
