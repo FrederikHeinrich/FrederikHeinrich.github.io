@@ -1,0 +1,4 @@
+# robots.txt zu https://FrederikHeinrich.de
+User-agent: *
+Disallow: /*.jpng$
+Disallow: /*.png$
