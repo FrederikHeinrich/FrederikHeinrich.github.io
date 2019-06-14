@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         GoogleMemeSuche
 // @namespace    http://frederikheinrich.de/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Freddi
 // @match        https://www.google.com/search?*
+// @updateURL    https://frederikheinrich.de/scripts/GoogleMemeSuche/GoogleMemeSuche.js
+// @downloadURL  https://frederikheinrich.de/scripts/GoogleMemeSuche/GoogleMemeSuche.js
 // @grant        none
 // ==/UserScript==
 
