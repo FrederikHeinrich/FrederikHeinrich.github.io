@@ -6,22 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="custom.css">
-        <script>
-            function updateAge(){
-                var d = new Date(2000, 5 -1, 7);
-                var sekunden_geb = d.getTime();
-                var heute = new Date();
-                var sekunden_heute = heute.getTime();
-                var alter = sekunden_heute - sekunden_geb;
-                var jahr_in_ms = 365.25 * 24 * 60 * 60 * 1000 ;
-                document.write("Alter in Jahren (ungefähr): " + alter / jahr_in_ms + " (ungefähr) <br>");
-                document.write("Alter in Jahren: " + Math.floor(alter / jahr_in_ms) + " (abgerundet)");
-            }
-            
-        </script>
-        <?php
-        including("keylogger.php");
-        ?>
     </head>
     <body>
         <div class="container">
@@ -34,7 +18,7 @@
                     <li>Is rarely encountered in real life.</li>
                     <li>Loves Tesla electric cars.</li>
                     <li>Is really good with this Computer stuff ...</li>
-                    <li>Is <div id="age">unknown</div> years old</li>
+                    <li>Is 19 years old</li>
                     <li>Sometimes a little bit anxious, but this is okay</li>
                     <li>Can steal your cookies (is this an anti-feature?)</li>
                 </ul>
@@ -49,9 +33,9 @@
                 </ul>
                 <p>Also I did the following things for some other people</p>
                 <ul>
-                    <li>An Alexa skill for a podcast</li>
-                    <li>A small Android app</li>
-                    <li>A Raspberry Pi information screen where you can add more content via an SMB share and Excel spreadsheets</li>
+                    <li>-------------</li>
+                    <li>----------------</li>
+                    <li>------------------------</li>
                 </ul>
                 <br>
                 <h2>Contact me</h2>
