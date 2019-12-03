@@ -210,6 +210,10 @@
   transform: rotate(-45deg) translateY(25%);
 }
 
+h1 {
+	display: none;
+}
+
 .st-panel h2 {
   color: #e23a6e;
   text-shadow: 1px 1px 1px rgba(151, 24, 64, 0.2);

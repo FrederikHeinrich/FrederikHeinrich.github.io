@@ -1,4 +1,6 @@
 @import url('normalize.css');
+@import url('style.css');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700&display=swap');
 @font-face {
 	font-family:'RaphaelIcons';
     src: url('raphaelicons-webfont.eot');
