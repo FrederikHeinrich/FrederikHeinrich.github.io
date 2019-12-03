@@ -110,6 +110,9 @@
   background: var(--hoverMenu);
 }
 
+.st-container > input:hover + a:after {
+	border-bottom-color: var(--hoverMenu);
+}
 
 .st-scroll,
 .st-panel {
