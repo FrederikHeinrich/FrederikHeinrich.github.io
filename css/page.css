@@ -14,10 +14,10 @@
 
 body{
 	font-family: Georgia, serif;
-	background: #ddd;
+	background: var(--main-bg-color);
 	font-weight: 400;
 	font-size: 15px;
-	color: #333;
+	color: var(--main-bg-color);
 	overflow: hidden;
 	-webkit-font-smoothing: antialiased;
 }
