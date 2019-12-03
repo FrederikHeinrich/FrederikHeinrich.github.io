@@ -2,6 +2,12 @@
 User-agent: *
 Disallow: /*.jpng$
 Disallow: /*.png$
-Disallow: /css/*
-Disallow: *
+Disallow: /*.ico$
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.txt$
+Disallow: /*.eot$
+Disallow: /*.svg$
+Disallow: /*.woff$
+Disallow: /CNAME$
 Alllow: index.html
