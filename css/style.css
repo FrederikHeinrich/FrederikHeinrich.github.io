@@ -312,6 +312,7 @@ h1 {
   margin: 10px 0 0 0;
   -webkit-backface-visibility: hidden;
 }
+
 #st-control-1:checked ~ .st-scroll #home p,
 #st-control-2:checked ~ .st-scroll #about p,
 #st-control-3:checked ~ .st-scroll #portfolio p,
