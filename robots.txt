@@ -1,5 +1,1 @@
 # robots.txt zu https://FrederikHeinrich.de/
-
-User-Agent: *
-Disallow: /*
-Allow: /index.html
