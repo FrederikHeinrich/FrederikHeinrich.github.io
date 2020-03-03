@@ -1,14 +1,38 @@
 # robots.txt zu https://FrederikHeinrich.de/
 
-User-agent: *
-Disallow: /*.jpng
-Disallow: /*.png
-Disallow: /*.ico
-Disallow: /*.css
-Disallow: /*.js
-Disallow: /*.txt
-Disallow: /*.eot
-Disallow: /*.svg
-Disallow: /*.woff
-Disallow: /CNAME
-Alllow: index.html
+User-Agent: *
+Disallow: /*
+
+User-Agent: Googlebot
+Allow: /index.html
+
+User-Agent: Googlebot-Image
+Allow: /index.html
+
+User-Agent: MSNBot
+Allow: /index.html
+
+User-Agent: Slurp
+Allow: /index.html
+
+User-Agent: Lycos
+Allow: /index.html
+
+User-Agent: Seekbot
+Allow: /index.html
+
+User-Agent: Sistrix
+Allow: /index.html
+
+User-Agent: SearchmetricsBot
+Allow: /index.html
+
+User-Agent: BacklinkCrawler
+Allow: /index.html
+
+User-Agent: SEOkicks-Robot
+Allow: /index.html
+
+User-Agent: xovi
+Allow: /index.html
+
