@@ -182,7 +182,7 @@
 
 [data-icon]:after {
   content: attr(data-icon);
-  font-family: "RaphaelIcons";
+  font-family: "Icons";
   color: #fff;
   text-shadow: inset 0 0 100px rgba(255,255,255,0.2);
   position: absolute;
