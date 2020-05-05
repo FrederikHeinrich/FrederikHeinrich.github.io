@@ -1,10 +1,4 @@
-:root {
-  font-family: 'Open Sans';
-  --text-primary: #fff;
-  --text-secondary: #b6b6b6;
-  --bg-primary: #370045;
-  --bg-secondary: #1c1a1c;
-}
+@import url('https://FrederikHeinrich.de/branding.css');
 
 .st-container {
   -webkit-touch-callout: none; /* iOS Safari */
